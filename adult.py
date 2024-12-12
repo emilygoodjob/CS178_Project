@@ -13,7 +13,7 @@ train_data = pd.read_csv('adult/adult.data', header=None, names=column_names, na
 test_data = pd.read_csv('adult/adult.test', header=None, names=column_names, skiprows=1, na_values=' ?')
 
 # Numerical Features
-# print(train_data.describe())
+print(train_data.describe())
 
 # Categorical Distribution
 # print(train_data['education'].value_counts())
